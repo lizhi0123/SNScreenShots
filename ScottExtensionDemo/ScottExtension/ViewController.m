@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIImage+ScottExtension.h"
+#import <SNScreenShots/UIImage+ScottExtension.h>
 
 @interface ViewController ()
     @property (weak, nonatomic) IBOutlet UIImageView *imgV;

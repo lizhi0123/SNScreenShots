@@ -1,0 +1,22 @@
+{
+  "name": "SNScreenShots",
+  "version": "0.1.0",
+  "summary": "截图 SNScreenShots.",
+  "description": "截图 SNScreenShots uiimage",
+  "homepage": "https://github.com/lizhi0123/SNScreenShots",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lizhi0123": "zhang_zhi_li@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lizhi0123/SNScreenShots.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Classes/**/*"
+}

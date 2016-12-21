@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6580803BEB8E3B3966257A1E /* libPods-ScottExtensionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5651BA4631A4F6159D298073 /* libPods-ScottExtensionUITests.a */; };
+		6B408327525FA1BEBFD49C81 /* libPods-ScottExtensionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2966E7DFC1DB757911929B57 /* libPods-ScottExtensionTests.a */; };
 		9D157B101E0A51AC002D3066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B0F1E0A51AC002D3066 /* main.m */; };
 		9D157B131E0A51AC002D3066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B121E0A51AC002D3066 /* AppDelegate.m */; };
 		9D157B161E0A51AC002D3066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B151E0A51AC002D3066 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 		9D157B291E0A51AC002D3066 /* ScottExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B281E0A51AC002D3066 /* ScottExtensionTests.m */; };
 		9D157B341E0A51AC002D3066 /* ScottExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B331E0A51AC002D3066 /* ScottExtensionUITests.m */; };
 		9D157B441E0A51E1002D3066 /* UIImage+ScottExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B431E0A51E1002D3066 /* UIImage+ScottExtension.m */; };
+		9D157B651E0A83A2002D3066 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B641E0A83A2002D3066 /* Info.plist */; };
+		9D157B661E0A83A2002D3066 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B641E0A83A2002D3066 /* Info.plist */; };
+		9D157B671E0A83A2002D3066 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B641E0A83A2002D3066 /* Info.plist */; };
+		B4342473CEA6A2350FE36B4D /* libPods-ScottExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92771C3BF67A7ADFF4416610 /* libPods-ScottExtension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2966E7DFC1DB757911929B57 /* libPods-ScottExtensionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScottExtensionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51375900FD4236D64280EDBC /* Pods-ScottExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtension/Pods-ScottExtension.release.xcconfig"; sourceTree = "<group>"; };
+		5651BA4631A4F6159D298073 /* libPods-ScottExtensionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScottExtensionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		643090DCECE00FC24BB5D502 /* Pods-ScottExtensionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtensionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtensionUITests/Pods-ScottExtensionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70C536A2DE328421E60EE087 /* Pods-ScottExtensionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtensionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtensionUITests/Pods-ScottExtensionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92771C3BF67A7ADFF4416610 /* libPods-ScottExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScottExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D157B0B1E0A51AC002D3066 /* ScottExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScottExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D157B0F1E0A51AC002D3066 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D157B111E0A51AC002D3066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +57,6 @@
 		9D157B181E0A51AC002D3066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D157B1A1E0A51AC002D3066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D157B1D1E0A51AC002D3066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9D157B1F1E0A51AC002D3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D157B241E0A51AC002D3066 /* ScottExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D157B281E0A51AC002D3066 /* ScottExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScottExtensionTests.m; sourceTree = "<group>"; };
 		9D157B2A1E0A51AC002D3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +65,10 @@
 		9D157B351E0A51AC002D3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D157B421E0A51E1002D3066 /* UIImage+ScottExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScottExtension.h"; sourceTree = "<group>"; };
 		9D157B431E0A51E1002D3066 /* UIImage+ScottExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScottExtension.m"; sourceTree = "<group>"; };
+		9D157B641E0A83A2002D3066 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E33E2BD3713762FCC2609DD /* Pods-ScottExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtension/Pods-ScottExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		E76CB9CBB77DC866E0068F86 /* Pods-ScottExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtensionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtensionTests/Pods-ScottExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF768E612E414340F44BAC6C /* Pods-ScottExtensionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtensionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtensionTests/Pods-ScottExtensionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4342473CEA6A2350FE36B4D /* libPods-ScottExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B408327525FA1BEBFD49C81 /* libPods-ScottExtensionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6580803BEB8E3B3966257A1E /* libPods-ScottExtensionUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3827C54E19F8F490CF798E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E33E2BD3713762FCC2609DD /* Pods-ScottExtension.debug.xcconfig */,
+				51375900FD4236D64280EDBC /* Pods-ScottExtension.release.xcconfig */,
+				FF768E612E414340F44BAC6C /* Pods-ScottExtensionTests.debug.xcconfig */,
+				E76CB9CBB77DC866E0068F86 /* Pods-ScottExtensionTests.release.xcconfig */,
+				70C536A2DE328421E60EE087 /* Pods-ScottExtensionUITests.debug.xcconfig */,
+				643090DCECE00FC24BB5D502 /* Pods-ScottExtensionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D4DF7D71671F9C728CAF4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92771C3BF67A7ADFF4416610 /* libPods-ScottExtension.a */,
+				2966E7DFC1DB757911929B57 /* libPods-ScottExtensionTests.a */,
+				5651BA4631A4F6159D298073 /* libPods-ScottExtensionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D157B021E0A51AC002D3066 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +130,8 @@
 				9D157B271E0A51AC002D3066 /* ScottExtensionTests */,
 				9D157B321E0A51AC002D3066 /* ScottExtensionUITests */,
 				9D157B0C1E0A51AC002D3066 /* Products */,
+				3827C54E19F8F490CF798E02 /* Pods */,
+				7D4DF7D71671F9C728CAF4C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +155,6 @@
 				9D157B171E0A51AC002D3066 /* Main.storyboard */,
 				9D157B1A1E0A51AC002D3066 /* Assets.xcassets */,
 				9D157B1C1E0A51AC002D3066 /* LaunchScreen.storyboard */,
-				9D157B1F1E0A51AC002D3066 /* Info.plist */,
 				9D157B0E1E0A51AC002D3066 /* Supporting Files */,
 			);
 			path = ScottExtension;
@@ -122,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				9D157B0F1E0A51AC002D3066 /* main.m */,
+				9D157B641E0A83A2002D3066 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D157B381E0A51AC002D3066 /* Build configuration list for PBXNativeTarget "ScottExtension" */;
 			buildPhases = (
+				2EFD399C01755A62B3EA9D93 /* [CP] Check Pods Manifest.lock */,
 				9D157B071E0A51AC002D3066 /* Sources */,
 				9D157B081E0A51AC002D3066 /* Frameworks */,
 				9D157B091E0A51AC002D3066 /* Resources */,
+				0849A84CE04C3C127AC2FEAB /* [CP] Embed Pods Frameworks */,
+				C58AB64D8002D9D1543740BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D157B3B1E0A51AC002D3066 /* Build configuration list for PBXNativeTarget "ScottExtensionTests" */;
 			buildPhases = (
+				0E40DAFF912EDE537E437D15 /* [CP] Check Pods Manifest.lock */,
 				9D157B201E0A51AC002D3066 /* Sources */,
 				9D157B211E0A51AC002D3066 /* Frameworks */,
 				9D157B221E0A51AC002D3066 /* Resources */,
+				F78D7CF36FCDA04B70FAC470 /* [CP] Embed Pods Frameworks */,
+				85D1C2BF5D971F4FFD5AFD24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D157B3E1E0A51AC002D3066 /* Build configuration list for PBXNativeTarget "ScottExtensionUITests" */;
 			buildPhases = (
+				3FF0DB731D300AD7D627DF7A /* [CP] Check Pods Manifest.lock */,
 				9D157B2B1E0A51AC002D3066 /* Sources */,
 				9D157B2C1E0A51AC002D3066 /* Frameworks */,
 				9D157B2D1E0A51AC002D3066 /* Resources */,
+				01AAA8F4E73B265665AAE488 /* [CP] Embed Pods Frameworks */,
+				49DD0DA518417DB07980DD80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D157B1E1E0A51AC002D3066 /* LaunchScreen.storyboard in Resources */,
+				9D157B651E0A83A2002D3066 /* Info.plist in Resources */,
 				9D157B1B1E0A51AC002D3066 /* Assets.xcassets in Resources */,
 				9D157B191E0A51AC002D3066 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D157B661E0A83A2002D3066 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +333,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D157B671E0A83A2002D3066 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01AAA8F4E73B265665AAE488 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScottExtensionUITests/Pods-ScottExtensionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0849A84CE04C3C127AC2FEAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScottExtension/Pods-ScottExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E40DAFF912EDE537E437D15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EFD399C01755A62B3EA9D93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF0DB731D300AD7D627DF7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49DD0DA518417DB07980DD80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScottExtensionUITests/Pods-ScottExtensionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D1C2BF5D971F4FFD5AFD24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScottExtensionTests/Pods-ScottExtensionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58AB64D8002D9D1543740BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScottExtension/Pods-ScottExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78D7CF36FCDA04B70FAC470 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScottExtensionTests/Pods-ScottExtensionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D157B071E0A51AC002D3066 /* Sources */ = {
@@ -437,6 +630,7 @@
 		};
 		9D157B391E0A51AC002D3066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E33E2BD3713762FCC2609DD /* Pods-ScottExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D2YB7AB988;
@@ -449,6 +643,7 @@
 		};
 		9D157B3A1E0A51AC002D3066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51375900FD4236D64280EDBC /* Pods-ScottExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D2YB7AB988;
@@ -461,6 +656,7 @@
 		};
 		9D157B3C1E0A51AC002D3066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF768E612E414340F44BAC6C /* Pods-ScottExtensionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = D2YB7AB988;
@@ -474,6 +670,7 @@
 		};
 		9D157B3D1E0A51AC002D3066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76CB9CBB77DC866E0068F86 /* Pods-ScottExtensionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = D2YB7AB988;
@@ -487,6 +684,7 @@
 		};
 		9D157B3F1E0A51AC002D3066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C536A2DE328421E60EE087 /* Pods-ScottExtensionUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = D2YB7AB988;
 				INFOPLIST_FILE = ScottExtensionUITests/Info.plist;
@@ -499,6 +697,7 @@
 		};
 		9D157B401E0A51AC002D3066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643090DCECE00FC24BB5D502 /* Pods-ScottExtensionUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = D2YB7AB988;
 				INFOPLIST_FILE = ScottExtensionUITests/Info.plist;
@@ -528,6 +727,7 @@
 				9D157B3A1E0A51AC002D3066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D157B3B1E0A51AC002D3066 /* Build configuration list for PBXNativeTarget "ScottExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +736,7 @@
 				9D157B3D1E0A51AC002D3066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D157B3E1E0A51AC002D3066 /* Build configuration list for PBXNativeTarget "ScottExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +745,7 @@
 				9D157B401E0A51AC002D3066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

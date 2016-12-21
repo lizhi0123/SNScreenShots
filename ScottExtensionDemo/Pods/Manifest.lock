@@ -1,0 +1,16 @@
+PODS:
+  - SNScreenShots (0.1.0)
+
+DEPENDENCIES:
+  - SNScreenShots (from `../`)
+
+EXTERNAL SOURCES:
+  SNScreenShots:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SNScreenShots: ef26c40a356cfeab8830abe4b5b2cca180671694
+
+PODFILE CHECKSUM: c14779777562d4e58cc1ce1e60513677eb087c35
+
+COCOAPODS: 1.1.1
