@@ -17,7 +17,6 @@
 		9D157B1E1E0A51AC002D3066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B1C1E0A51AC002D3066 /* LaunchScreen.storyboard */; };
 		9D157B291E0A51AC002D3066 /* ScottExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B281E0A51AC002D3066 /* ScottExtensionTests.m */; };
 		9D157B341E0A51AC002D3066 /* ScottExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B331E0A51AC002D3066 /* ScottExtensionUITests.m */; };
-		9D157B441E0A51E1002D3066 /* UIImage+ScottExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D157B431E0A51E1002D3066 /* UIImage+ScottExtension.m */; };
 		9D157B651E0A83A2002D3066 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B641E0A83A2002D3066 /* Info.plist */; };
 		9D157B661E0A83A2002D3066 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B641E0A83A2002D3066 /* Info.plist */; };
 		9D157B671E0A83A2002D3066 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D157B641E0A83A2002D3066 /* Info.plist */; };
@@ -63,8 +62,6 @@
 		9D157B2F1E0A51AC002D3066 /* ScottExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D157B331E0A51AC002D3066 /* ScottExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScottExtensionUITests.m; sourceTree = "<group>"; };
 		9D157B351E0A51AC002D3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D157B421E0A51E1002D3066 /* UIImage+ScottExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScottExtension.h"; sourceTree = "<group>"; };
-		9D157B431E0A51E1002D3066 /* UIImage+ScottExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScottExtension.m"; sourceTree = "<group>"; };
 		9D157B641E0A83A2002D3066 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E33E2BD3713762FCC2609DD /* Pods-ScottExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtension/Pods-ScottExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		E76CB9CBB77DC866E0068F86 /* Pods-ScottExtensionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScottExtensionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScottExtensionTests/Pods-ScottExtensionTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +122,6 @@
 		9D157B021E0A51AC002D3066 = {
 			isa = PBXGroup;
 			children = (
-				9D157B411E0A51E1002D3066 /* Classes */,
 				9D157B0D1E0A51AC002D3066 /* ScottExtension */,
 				9D157B271E0A51AC002D3066 /* ScottExtensionTests */,
 				9D157B321E0A51AC002D3066 /* ScottExtensionUITests */,
@@ -185,15 +181,6 @@
 				9D157B351E0A51AC002D3066 /* Info.plist */,
 			);
 			path = ScottExtensionUITests;
-			sourceTree = "<group>";
-		};
-		9D157B411E0A51E1002D3066 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9D157B421E0A51E1002D3066 /* UIImage+ScottExtension.h */,
-				9D157B431E0A51E1002D3066 /* UIImage+ScottExtension.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,7 +470,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D157B161E0A51AC002D3066 /* ViewController.m in Sources */,
-				9D157B441E0A51E1002D3066 /* UIImage+ScottExtension.m in Sources */,
 				9D157B131E0A51AC002D3066 /* AppDelegate.m in Sources */,
 				9D157B101E0A51AC002D3066 /* main.m in Sources */,
 			);

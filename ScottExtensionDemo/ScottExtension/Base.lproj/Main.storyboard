@@ -43,10 +43,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tR2-2d-UBI">
-                                <rect key="frame" x="46" y="505" width="150" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tR2-2d-UBI">
+                                <rect key="frame" x="46" y="604" width="150" height="43"/>
                                 <color key="backgroundColor" red="0.84705882349999995" green="0.43921568630000002" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="WUr-Z7-2XL"/>
+                                    <constraint firstAttribute="height" constant="43" id="yaW-Vs-EBT"/>
+                                </constraints>
                                 <state key="normal" title="截屏"/>
                                 <connections>
                                     <action selector="jiepingClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ta5-CU-tqU"/>
@@ -61,7 +64,9 @@
                             <constraint firstAttribute="trailing" secondItem="ZQ5-mv-fKE" secondAttribute="trailing" constant="11" id="M2X-5W-VpC"/>
                             <constraint firstItem="qIX-Hp-zUx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MqI-Lb-WYo"/>
                             <constraint firstItem="x91-MW-ckP" firstAttribute="top" secondItem="qIX-Hp-zUx" secondAttribute="bottom" constant="15" id="SRy-lq-5Oc"/>
+                            <constraint firstItem="tR2-2d-UBI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="WDy-Kb-o2S"/>
                             <constraint firstItem="x91-MW-ckP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="26" id="fr2-Ha-CfV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tR2-2d-UBI" secondAttribute="bottom" constant="20" id="kp0-Rq-jwi"/>
                             <constraint firstItem="x91-MW-ckP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uyR-Nh-OoI"/>
                         </constraints>
                     </view>
